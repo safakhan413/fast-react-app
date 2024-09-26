@@ -87,12 +87,21 @@ for user in user_ids:
     assigned_phones = random.sample(phones_pool, num_user_phones)
     user_devices[user]['phones'].update(assigned_phones)
     for phone in assigned_phones:
+        # Adding corresponding users to the phones to keep a set of users using the device
         device_users_phones[phone].add(user)
+
+
+    # Syntax : random.sample(sequence, k)  
+    # Parameters:
+    # sequence: Can be a list, tuple, string, or set. 
+    # k: An Integer value, it specify the length of a sample.  
+    # Returns: k length new list of elements chosen from the sequence.     
 
     # Randomly assign voicemails to the user, allowing for shared devices
     assigned_voicemails = random.sample(voicemails_pool, num_user_voicemails)
     user_devices[user]['voicemails'].update(assigned_voicemails)
     for vm in assigned_voicemails:
+        # Adding corresponding users to the vm to keep a set of users receiving the vm keeping the many to many relationship
         device_users_voicemails[vm].add(user)
 
 # ------------------------------
@@ -125,6 +134,9 @@ output_file = 'documents.json'
 
 # Open the file in write mode and dump the JSON documents with indentation for readability
 with open(output_file, 'w') as f:
+    # The dump() method is used when the Python objects have to be stored in a file.	
+   
+    # The dump() needs the json file name in which the output has to be stored as an argument.
     json.dump(json_documents, f, indent=4)
 
 print(f"Successfully generated {len(json_documents)} JSON documents and saved to '{output_file}'.")
