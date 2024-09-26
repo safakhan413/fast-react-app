@@ -1,0 +1,1682 @@
+[
+    {
+        "_id": 10001,
+        "originationTime": 1705558751,
+        "clusterId": "domainserver2",
+        "userId": "906851781",
+        "devices": {
+            "phone": [
+                "HP986727706572",
+                "APP583352180958",
+                "SEP199433646800"
+            ],
+            "voicemail": [
+                "VOICE760764",
+                "VOICE354235"
+            ]
+        }
+    },
+    {
+        "_id": 10002,
+        "originationTime": 1716466632,
+        "clusterId": "domainserver1",
+        "userId": "203605710",
+        "devices": {
+            "phone": [
+                "SAMS182141592319"
+            ],
+            "voicemail": [
+                "MAIL770612",
+                "MAIL477836"
+            ]
+        }
+    },
+    {
+        "_id": 10003,
+        "originationTime": 1724377921,
+        "clusterId": "domainserver1",
+        "userId": "359440858",
+        "devices": {
+            "phone": [
+                "APP608176984663"
+            ],
+            "voicemail": [
+                "VM496491",
+                "MSG198829"
+            ]
+        }
+    },
+    {
+        "_id": 10004,
+        "originationTime": 1705419616,
+        "clusterId": "domainserver4",
+        "userId": "293438749",
+        "devices": {
+            "phone": [
+                "SAMS927397480323"
+            ],
+            "voicemail": [
+                "VM660792",
+                "MAIL700394",
+                "VOICE837004"
+            ]
+        }
+    },
+    {
+        "_id": 10005,
+        "originationTime": 1726613016,
+        "clusterId": "domainserver1",
+        "userId": "717258913",
+        "devices": {
+            "phone": [
+                "HP525035789263",
+                "LG296828597489",
+                "APP703720735374"
+            ],
+            "voicemail": [
+                "VM707000",
+                "MSG421085"
+            ]
+        }
+    },
+    {
+        "_id": 10006,
+        "originationTime": 1719662551,
+        "clusterId": "domainserver4",
+        "userId": "471413281",
+        "devices": {
+            "phone": [
+                "LG860959074894",
+                "LG237925670129",
+                "APP234292520791"
+            ],
+            "voicemail": [
+                "VM985228"
+            ]
+        }
+    },
+    {
+        "_id": 10007,
+        "originationTime": 1724680319,
+        "clusterId": "domainserver3",
+        "userId": "875964842",
+        "devices": {
+            "phone": [
+                "SAMS723970120085"
+            ],
+            "voicemail": [
+                "MAIL700394",
+                "MSG626967",
+                "MAIL483711"
+            ]
+        }
+    },
+    {
+        "_id": 10008,
+        "originationTime": 1721696597,
+        "clusterId": "domainserver4",
+        "userId": "773797483",
+        "devices": {
+            "phone": [
+                "SEP253896694429",
+                "LG327099868111",
+                "APP696198981506"
+            ],
+            "voicemail": [
+                "MAIL175147"
+            ]
+        }
+    },
+    {
+        "_id": 10009,
+        "originationTime": 1719265694,
+        "clusterId": "domainserver4",
+        "userId": "991821112",
+        "devices": {
+            "phone": [
+                "LG172945307418",
+                "HP449375288983"
+            ],
+            "voicemail": [
+                "MAIL317022",
+                "VM715895",
+                "MAIL854163"
+            ]
+        }
+    },
+    {
+        "_id": 10010,
+        "originationTime": 1726936668,
+        "clusterId": "domainserver3",
+        "userId": "703843710",
+        "devices": {
+            "phone": [
+                "SAMS612212215733",
+                "HP741818155289",
+                "SEP303056564829"
+            ],
+            "voicemail": [
+                "VM601724",
+                "MAIL468124"
+            ]
+        }
+    },
+    {
+        "_id": 10011,
+        "originationTime": 1723374843,
+        "clusterId": "domainserver2",
+        "userId": "210985357",
+        "devices": {
+            "phone": [
+                "SEP305203954438",
+                "LG826195593587"
+            ],
+            "voicemail": [
+                "VOICE876643"
+            ]
+        }
+    },
+    {
+        "_id": 10012,
+        "originationTime": 1708031363,
+        "clusterId": "domainserver4",
+        "userId": "237969733",
+        "devices": {
+            "phone": [
+                "SAMS685473459771",
+                "LG938948208185"
+            ],
+            "voicemail": [
+                "MAIL491116",
+                "VOICE401161",
+                "MSG626967"
+            ]
+        }
+    },
+    {
+        "_id": 10013,
+        "originationTime": 1718274749,
+        "clusterId": "domainserver2",
+        "userId": "214058206",
+        "devices": {
+            "phone": [
+                "LG327099868111",
+                "SAMS794822904979",
+                "LG511313132067",
+                "SEP514007052022"
+            ],
+            "voicemail": [
+                "VM773549",
+                "MAIL188533",
+                "MSG126719"
+            ]
+        }
+    },
+    {
+        "_id": 10014,
+        "originationTime": 1704253506,
+        "clusterId": "domainserver3",
+        "userId": "332699245",
+        "devices": {
+            "phone": [
+                "SAMS578974512366",
+                "HP259167484826"
+            ],
+            "voicemail": [
+                "VM205724"
+            ]
+        }
+    },
+    {
+        "_id": 10015,
+        "originationTime": 1718590512,
+        "clusterId": "domainserver3",
+        "userId": "853525191",
+        "devices": {
+            "phone": [
+                "SEP695885863917",
+                "SAMS488713062641",
+                "SEP245934064407",
+                "LG237925670129"
+            ],
+            "voicemail": [
+                "VOICE337435",
+                "VM641356",
+                "VOICE109143"
+            ]
+        }
+    },
+    {
+        "_id": 10016,
+        "originationTime": 1719250078,
+        "clusterId": "domainserver2",
+        "userId": "737831192",
+        "devices": {
+            "phone": [
+                "SAMS735606126717",
+                "HP303320515331"
+            ],
+            "voicemail": [
+                "MAIL477836",
+                "VOICE760835"
+            ]
+        }
+    },
+    {
+        "_id": 10017,
+        "originationTime": 1720058713,
+        "clusterId": "domainserver4",
+        "userId": "379962798",
+        "devices": {
+            "phone": [
+                "SAMS945970015828",
+                "SAMS488713062641"
+            ],
+            "voicemail": [
+                "MAIL861514",
+                "MAIL736926"
+            ]
+        }
+    },
+    {
+        "_id": 10018,
+        "originationTime": 1706866152,
+        "clusterId": "domainserver4",
+        "userId": "533709984",
+        "devices": {
+            "phone": [
+                "APP703720735374"
+            ],
+            "voicemail": [
+                "MSG786674",
+                "MSG211127",
+                "VOICE401161"
+            ]
+        }
+    },
+    {
+        "_id": 10019,
+        "originationTime": 1718841107,
+        "clusterId": "domainserver2",
+        "userId": "276099459",
+        "devices": {
+            "phone": [
+                "APP549145426476",
+                "SEP253896694429",
+                "SAMS431805812944"
+            ],
+            "voicemail": [
+                "MAIL566178",
+                "VM733551",
+                "VOICE110824"
+            ]
+        }
+    },
+    {
+        "_id": 10020,
+        "originationTime": 1704888954,
+        "clusterId": "domainserver2",
+        "userId": "858241957",
+        "devices": {
+            "phone": [
+                "SAMS833531691512",
+                "HP741818155289",
+                "APP443452434556"
+            ],
+            "voicemail": [
+                "VOICE431791",
+                "MSG302166"
+            ]
+        }
+    },
+    {
+        "_id": 10021,
+        "originationTime": 1715412682,
+        "clusterId": "domainserver1",
+        "userId": "255567951",
+        "devices": {
+            "phone": [
+                "SAMS723970120085",
+                "SEP578553984840",
+                "LG836333718886"
+            ],
+            "voicemail": [
+                "VM851862",
+                "VOICE109143"
+            ]
+        }
+    },
+    {
+        "_id": 10022,
+        "originationTime": 1698812339,
+        "clusterId": "domainserver2",
+        "userId": "726145928",
+        "devices": {
+            "phone": [
+                "HP204650384068",
+                "APP872541037952",
+                "LG508548085591",
+                "HP269547430893"
+            ],
+            "voicemail": [
+                "VM275660",
+                "MAIL467132"
+            ]
+        }
+    },
+    {
+        "_id": 10023,
+        "originationTime": 1714865944,
+        "clusterId": "domainserver2",
+        "userId": "331376828",
+        "devices": {
+            "phone": [
+                "SEP180648448511"
+            ],
+            "voicemail": [
+                "MSG677615"
+            ]
+        }
+    },
+    {
+        "_id": 10024,
+        "originationTime": 1721593409,
+        "clusterId": "domainserver1",
+        "userId": "913221973",
+        "devices": {
+            "phone": [
+                "LG642219243125"
+            ],
+            "voicemail": [
+                "MSG420988",
+                "MAIL240425",
+                "MSG902740"
+            ]
+        }
+    },
+    {
+        "_id": 10025,
+        "originationTime": 1727186176,
+        "clusterId": "domainserver2",
+        "userId": "897635468",
+        "devices": {
+            "phone": [
+                "SAMS155920730024",
+                "APP157694771582"
+            ],
+            "voicemail": [
+                "VM268375",
+                "MAIL351349",
+                "MSG756246"
+            ]
+        }
+    },
+    {
+        "_id": 10026,
+        "originationTime": 1710774613,
+        "clusterId": "domainserver1",
+        "userId": "468169682",
+        "devices": {
+            "phone": [
+                "SEP180648448511",
+                "SAMS259782815479"
+            ],
+            "voicemail": [
+                "VM736706"
+            ]
+        }
+    },
+    {
+        "_id": 10027,
+        "originationTime": 1708849213,
+        "clusterId": "domainserver1",
+        "userId": "747448023",
+        "devices": {
+            "phone": [
+                "HP525035789263",
+                "LG327099868111",
+                "LG860959074894",
+                "HP788881663207"
+            ],
+            "voicemail": [
+                "VOICE147176",
+                "VM641356"
+            ]
+        }
+    },
+    {
+        "_id": 10028,
+        "originationTime": 1710242929,
+        "clusterId": "domainserver2",
+        "userId": "815132799",
+        "devices": {
+            "phone": [
+                "LG899278686023",
+                "SEP587705085234",
+                "APP686614057744",
+                "HP669165523916",
+                "HP324641239933"
+            ],
+            "voicemail": [
+                "VOICE275978"
+            ]
+        }
+    },
+    {
+        "_id": 10029,
+        "originationTime": 1704546460,
+        "clusterId": "domainserver3",
+        "userId": "250017776",
+        "devices": {
+            "phone": [
+                "SAMS182141592319",
+                "LG642219243125",
+                "LG327099868111",
+                "LG296828597489"
+            ],
+            "voicemail": [
+                "MSG420988"
+            ]
+        }
+    },
+    {
+        "_id": 10030,
+        "originationTime": 1723272562,
+        "clusterId": "domainserver3",
+        "userId": "641964105",
+        "devices": {
+            "phone": [
+                "SAMS710863222966",
+                "SAMS155920730024",
+                "HP381953301700",
+                "LG860959074894"
+            ],
+            "voicemail": [
+                "VOICE758811"
+            ]
+        }
+    },
+    {
+        "_id": 10031,
+        "originationTime": 1712513740,
+        "clusterId": "domainserver1",
+        "userId": "628659013",
+        "devices": {
+            "phone": [
+                "SAMS945970015828",
+                "HP272731087514",
+                "HP624347571396"
+            ],
+            "voicemail": [
+                "VM660792"
+            ]
+        }
+    },
+    {
+        "_id": 10032,
+        "originationTime": 1718192425,
+        "clusterId": "domainserver1",
+        "userId": "785278008",
+        "devices": {
+            "phone": [
+                "SAMS716879301207",
+                "SEP695885863917",
+                "SEP199433646800",
+                "APP552779200111",
+                "APP614143917892"
+            ],
+            "voicemail": [
+                "MAIL398493",
+                "MSG953820"
+            ]
+        }
+    },
+    {
+        "_id": 10033,
+        "originationTime": 1699919811,
+        "clusterId": "domainserver3",
+        "userId": "488953841",
+        "devices": {
+            "phone": [
+                "SAMS259782815479",
+                "APP251519254121",
+                "SAMS434652434356",
+                "SAMS119176030678",
+                "LG103656859782"
+            ],
+            "voicemail": [
+                "VM232567",
+                "MSG756246"
+            ]
+        }
+    },
+    {
+        "_id": 10034,
+        "originationTime": 1704531255,
+        "clusterId": "domainserver2",
+        "userId": "610766119",
+        "devices": {
+            "phone": [
+                "LG269526240523",
+                "SEP565938931333",
+                "APP686614057744",
+                "SEP569905395432",
+                "SAMS258583063388"
+            ],
+            "voicemail": [
+                "MSG758363",
+                "MAIL314175",
+                "VM601724"
+            ]
+        }
+    },
+    {
+        "_id": 10035,
+        "originationTime": 1700437527,
+        "clusterId": "domainserver3",
+        "userId": "964914183",
+        "devices": {
+            "phone": [
+                "LG508548085591",
+                "LG836333718886",
+                "SEP425456167918"
+            ],
+            "voicemail": [
+                "MSG671103",
+                "VOICE518570",
+                "MAIL710582"
+            ]
+        }
+    },
+    {
+        "_id": 10036,
+        "originationTime": 1704555610,
+        "clusterId": "domainserver1",
+        "userId": "692331897",
+        "devices": {
+            "phone": [
+                "APP430281071495"
+            ],
+            "voicemail": [
+                "MAIL314175",
+                "VM767548",
+                "MAIL567880"
+            ]
+        }
+    },
+    {
+        "_id": 10037,
+        "originationTime": 1703447094,
+        "clusterId": "domainserver4",
+        "userId": "693783299",
+        "devices": {
+            "phone": [
+                "APP614143917892",
+                "APP703720735374"
+            ],
+            "voicemail": [
+                "VOICE658129",
+                "MSG176050"
+            ]
+        }
+    },
+    {
+        "_id": 10038,
+        "originationTime": 1697507414,
+        "clusterId": "domainserver4",
+        "userId": "790995561",
+        "devices": {
+            "phone": [
+                "APP255489968769",
+                "APP614270550843",
+                "SEP665605174642",
+                "LG646575122983"
+            ],
+            "voicemail": [
+                "MAIL895562"
+            ]
+        }
+    },
+    {
+        "_id": 10039,
+        "originationTime": 1710814227,
+        "clusterId": "domainserver2",
+        "userId": "784043973",
+        "devices": {
+            "phone": [
+                "APP520403382962",
+                "SEP901744848825"
+            ],
+            "voicemail": [
+                "MAIL153587",
+                "VOICE337435"
+            ]
+        }
+    },
+    {
+        "_id": 10040,
+        "originationTime": 1698923668,
+        "clusterId": "domainserver2",
+        "userId": "592248824",
+        "devices": {
+            "phone": [
+                "APP796433372193"
+            ],
+            "voicemail": [
+                "VOICE395374",
+                "VOICE403869",
+                "MAIL854163"
+            ]
+        }
+    },
+    {
+        "_id": 10041,
+        "originationTime": 1711706138,
+        "clusterId": "domainserver3",
+        "userId": "330634570",
+        "devices": {
+            "phone": [
+                "LG960975023360",
+                "SAMS258583063388",
+                "APP234292520791"
+            ],
+            "voicemail": [
+                "MSG758363"
+            ]
+        }
+    },
+    {
+        "_id": 10042,
+        "originationTime": 1722981378,
+        "clusterId": "domainserver3",
+        "userId": "386959027",
+        "devices": {
+            "phone": [
+                "APP989401681963",
+                "SEP171317440064",
+                "LG622473261881",
+                "HP394093089232",
+                "SAMS471098968672"
+            ],
+            "voicemail": [
+                "VOICE408984",
+                "MSG626967"
+            ]
+        }
+    },
+    {
+        "_id": 10043,
+        "originationTime": 1703740220,
+        "clusterId": "domainserver4",
+        "userId": "225057522",
+        "devices": {
+            "phone": [
+                "SAMS182141592319",
+                "HP525035789263",
+                "SAMS154880975588",
+                "LG347372694343"
+            ],
+            "voicemail": [
+                "VM660792",
+                "MAIL668799"
+            ]
+        }
+    },
+    {
+        "_id": 10044,
+        "originationTime": 1708253066,
+        "clusterId": "domainserver2",
+        "userId": "687242749",
+        "devices": {
+            "phone": [
+                "APP608176984663",
+                "SEP587705085234",
+                "APP972807008550"
+            ],
+            "voicemail": [
+                "MSG831852",
+                "VM707000",
+                "MSG686465"
+            ]
+        }
+    },
+    {
+        "_id": 10045,
+        "originationTime": 1713533590,
+        "clusterId": "domainserver3",
+        "userId": "550689506",
+        "devices": {
+            "phone": [
+                "LG960975023360",
+                "SAMS488713062641",
+                "LG424492651076"
+            ],
+            "voicemail": [
+                "MAIL668799",
+                "MSG427684"
+            ]
+        }
+    },
+    {
+        "_id": 10046,
+        "originationTime": 1697635045,
+        "clusterId": "domainserver3",
+        "userId": "770265626",
+        "devices": {
+            "phone": [
+                "LG296828597489",
+                "LG327099868111"
+            ],
+            "voicemail": [
+                "VM232567",
+                "MAIL977364",
+                "MSG176050"
+            ]
+        }
+    },
+    {
+        "_id": 10047,
+        "originationTime": 1707808972,
+        "clusterId": "domainserver1",
+        "userId": "579461357",
+        "devices": {
+            "phone": [
+                "SEP573178583393",
+                "LG591584118387"
+            ],
+            "voicemail": [
+                "MAIL111200",
+                "MAIL606911"
+            ]
+        }
+    },
+    {
+        "_id": 10048,
+        "originationTime": 1700272937,
+        "clusterId": "domainserver2",
+        "userId": "165133444",
+        "devices": {
+            "phone": [
+                "SAMS612212215733",
+                "SAMS254590745053",
+                "LG327099868111",
+                "HP321873501869"
+            ],
+            "voicemail": [
+                "VM773549"
+            ]
+        }
+    },
+    {
+        "_id": 10049,
+        "originationTime": 1709965903,
+        "clusterId": "domainserver2",
+        "userId": "294848356",
+        "devices": {
+            "phone": [
+                "SEP594034469719"
+            ],
+            "voicemail": [
+                "MSG840512"
+            ]
+        }
+    },
+    {
+        "_id": 10050,
+        "originationTime": 1708538948,
+        "clusterId": "domainserver3",
+        "userId": "376731966",
+        "devices": {
+            "phone": [
+                "SAMS794822904979"
+            ],
+            "voicemail": [
+                "VM314022",
+                "VOICE295200",
+                "VOICE394841"
+            ]
+        }
+    },
+    {
+        "_id": 10051,
+        "originationTime": 1699183874,
+        "clusterId": "domainserver2",
+        "userId": "468066520",
+        "devices": {
+            "phone": [
+                "SEP553369227048",
+                "SEP235132294666",
+                "HP324641239933"
+            ],
+            "voicemail": [
+                "MAIL491116",
+                "MAIL198556"
+            ]
+        }
+    },
+    {
+        "_id": 10052,
+        "originationTime": 1697603858,
+        "clusterId": "domainserver4",
+        "userId": "434803317",
+        "devices": {
+            "phone": [
+                "HP116788663115"
+            ],
+            "voicemail": [
+                "MSG302166"
+            ]
+        }
+    },
+    {
+        "_id": 10053,
+        "originationTime": 1722001723,
+        "clusterId": "domainserver4",
+        "userId": "522763217",
+        "devices": {
+            "phone": [
+                "HP525035789263",
+                "SAMS254590745053",
+                "SAMS613855709141",
+                "SAMS488713062641",
+                "HP381953301700"
+            ],
+            "voicemail": [
+                "VOICE408984",
+                "VOICE495607",
+                "MAIL895413"
+            ]
+        }
+    },
+    {
+        "_id": 10054,
+        "originationTime": 1721647976,
+        "clusterId": "domainserver3",
+        "userId": "854941353",
+        "devices": {
+            "phone": [
+                "SAMS710863222966"
+            ],
+            "voicemail": [
+                "MAIL855615",
+                "MAIL483711"
+            ]
+        }
+    },
+    {
+        "_id": 10055,
+        "originationTime": 1718418954,
+        "clusterId": "domainserver1",
+        "userId": "634426268",
+        "devices": {
+            "phone": [
+                "LG508548085591",
+                "LG642219243125",
+                "LG851492994071",
+                "LG826195593587",
+                "LG511313132067"
+            ],
+            "voicemail": [
+                "MSG955094",
+                "VM767548",
+                "MSG902740"
+            ]
+        }
+    },
+    {
+        "_id": 10056,
+        "originationTime": 1699352310,
+        "clusterId": "domainserver1",
+        "userId": "876874024",
+        "devices": {
+            "phone": [
+                "APP757712362320",
+                "APP251519254121",
+                "SEP368169723284",
+                "LG296828597489"
+            ],
+            "voicemail": [
+                "MAIL188533",
+                "VM733551"
+            ]
+        }
+    },
+    {
+        "_id": 10057,
+        "originationTime": 1712988007,
+        "clusterId": "domainserver3",
+        "userId": "851404491",
+        "devices": {
+            "phone": [
+                "SEP606773207399"
+            ],
+            "voicemail": [
+                "VOICE403869",
+                "MSG126719",
+                "VOICE106216"
+            ]
+        }
+    },
+    {
+        "_id": 10058,
+        "originationTime": 1709429341,
+        "clusterId": "domainserver3",
+        "userId": "120597609",
+        "devices": {
+            "phone": [
+                "HP381953301700"
+            ],
+            "voicemail": [
+                "VOICE876587"
+            ]
+        }
+    },
+    {
+        "_id": 10059,
+        "originationTime": 1718904451,
+        "clusterId": "domainserver3",
+        "userId": "171793640",
+        "devices": {
+            "phone": [
+                "SAMS612212215733",
+                "APP430281071495",
+                "SEP553369227048",
+                "SEP953504294766",
+                "LG237925670129"
+            ],
+            "voicemail": [
+                "VM361198"
+            ]
+        }
+    },
+    {
+        "_id": 10060,
+        "originationTime": 1708131130,
+        "clusterId": "domainserver1",
+        "userId": "682683489",
+        "devices": {
+            "phone": [
+                "SAMS486167010597",
+                "SEP750349115602",
+                "APP443452434556"
+            ],
+            "voicemail": [
+                "MSG626967",
+                "MAIL977364",
+                "VOICE184633"
+            ]
+        }
+    },
+    {
+        "_id": 10061,
+        "originationTime": 1713963405,
+        "clusterId": "domainserver1",
+        "userId": "181160550",
+        "devices": {
+            "phone": [
+                "SEP953504294766"
+            ],
+            "voicemail": [
+                "MAIL770612"
+            ]
+        }
+    },
+    {
+        "_id": 10062,
+        "originationTime": 1726190967,
+        "clusterId": "domainserver3",
+        "userId": "692137315",
+        "devices": {
+            "phone": [
+                "SEP594034469719",
+                "SEP425456167918"
+            ],
+            "voicemail": [
+                "MSG437558",
+                "VOICE322886",
+                "VOICE163835"
+            ]
+        }
+    },
+    {
+        "_id": 10063,
+        "originationTime": 1716780344,
+        "clusterId": "domainserver3",
+        "userId": "833502835",
+        "devices": {
+            "phone": [
+                "SEP303056564829",
+                "SEP756162286561",
+                "SAMS635105513723",
+                "SEP419260124400",
+                "LG591584118387"
+            ],
+            "voicemail": [
+                "VOICE871500"
+            ]
+        }
+    },
+    {
+        "_id": 10064,
+        "originationTime": 1715333615,
+        "clusterId": "domainserver2",
+        "userId": "471636048",
+        "devices": {
+            "phone": [
+                "SAMS486167010597",
+                "SEP199433646800"
+            ],
+            "voicemail": [
+                "MAIL477836",
+                "VM641356"
+            ]
+        }
+    },
+    {
+        "_id": 10065,
+        "originationTime": 1698065972,
+        "clusterId": "domainserver1",
+        "userId": "711785922",
+        "devices": {
+            "phone": [
+                "APP343839916810"
+            ],
+            "voicemail": [
+                "MAIL457312"
+            ]
+        }
+    },
+    {
+        "_id": 10066,
+        "originationTime": 1715133526,
+        "clusterId": "domainserver1",
+        "userId": "536377941",
+        "devices": {
+            "phone": [
+                "HP116788663115"
+            ],
+            "voicemail": [
+                "MSG686465",
+                "MSG237516"
+            ]
+        }
+    },
+    {
+        "_id": 10067,
+        "originationTime": 1699408194,
+        "clusterId": "domainserver1",
+        "userId": "676475254",
+        "devices": {
+            "phone": [
+                "APP872541037952",
+                "APP852252459805",
+                "SAMS635105513723",
+                "SEP606773207399",
+                "LG591584118387"
+            ],
+            "voicemail": [
+                "VOICE455710",
+                "MAIL491116"
+            ]
+        }
+    },
+    {
+        "_id": 10068,
+        "originationTime": 1726589519,
+        "clusterId": "domainserver1",
+        "userId": "599384144",
+        "devices": {
+            "phone": [
+                "SAMS154880975588",
+                "HP934461942215",
+                "SAMS927116624649",
+                "LG424492651076",
+                "APP608176984663"
+            ],
+            "voicemail": [
+                "MSG669322",
+                "MAIL470829",
+                "MAIL483711"
+            ]
+        }
+    },
+    {
+        "_id": 10069,
+        "originationTime": 1724967443,
+        "clusterId": "domainserver3",
+        "userId": "598216806",
+        "devices": {
+            "phone": [
+                "HP259167484826",
+                "SEP181850387251"
+            ],
+            "voicemail": [
+                "VOICE408984",
+                "VOICE758811",
+                "VOICE106216"
+            ]
+        }
+    },
+    {
+        "_id": 10070,
+        "originationTime": 1706621410,
+        "clusterId": "domainserver1",
+        "userId": "879291535",
+        "devices": {
+            "phone": [
+                "SEP394334308687"
+            ],
+            "voicemail": [
+                "VM641356"
+            ]
+        }
+    },
+    {
+        "_id": 10071,
+        "originationTime": 1717670601,
+        "clusterId": "domainserver2",
+        "userId": "612807247",
+        "devices": {
+            "phone": [
+                "SEP953504294766",
+                "LG237925670129",
+                "SAMS756009403008",
+                "LG591584118387"
+            ],
+            "voicemail": [
+                "MSG955094",
+                "VM314022"
+            ]
+        }
+    },
+    {
+        "_id": 10072,
+        "originationTime": 1697693318,
+        "clusterId": "domainserver2",
+        "userId": "678203195",
+        "devices": {
+            "phone": [
+                "SAMS431805812944",
+                "LG851492994071"
+            ],
+            "voicemail": [
+                "MSG953820",
+                "VOICE524962"
+            ]
+        }
+    },
+    {
+        "_id": 10073,
+        "originationTime": 1700158817,
+        "clusterId": "domainserver4",
+        "userId": "115778075",
+        "devices": {
+            "phone": [
+                "SAMS881385445415"
+            ],
+            "voicemail": [
+                "VM566037",
+                "VM314022"
+            ]
+        }
+    },
+    {
+        "_id": 10074,
+        "originationTime": 1725618616,
+        "clusterId": "domainserver2",
+        "userId": "154375539",
+        "devices": {
+            "phone": [
+                "SEP906805452072"
+            ],
+            "voicemail": [
+                "MSG236340"
+            ]
+        }
+    },
+    {
+        "_id": 10075,
+        "originationTime": 1696695650,
+        "clusterId": "domainserver4",
+        "userId": "763663476",
+        "devices": {
+            "phone": [
+                "SEP180648448511",
+                "SAMS735606126717",
+                "SEP199433646800",
+                "HP394093089232",
+                "SEP750349115602"
+            ],
+            "voicemail": [
+                "VOICE455710",
+                "MSG955094",
+                "MSG427684"
+            ]
+        }
+    },
+    {
+        "_id": 10076,
+        "originationTime": 1708701611,
+        "clusterId": "domainserver2",
+        "userId": "662211749",
+        "devices": {
+            "phone": [
+                "SAMS612212215733",
+                "LG860959074894",
+                "HP116788663115"
+            ],
+            "voicemail": [
+                "VM851862",
+                "MAIL113032",
+                "MSG907716"
+            ]
+        }
+    },
+    {
+        "_id": 10077,
+        "originationTime": 1698882986,
+        "clusterId": "domainserver1",
+        "userId": "625089314",
+        "devices": {
+            "phone": [
+                "APP255489968769",
+                "LG347372694343",
+                "HP486291212640"
+            ],
+            "voicemail": [
+                "MAIL700394"
+            ]
+        }
+    },
+    {
+        "_id": 10078,
+        "originationTime": 1723894210,
+        "clusterId": "domainserver2",
+        "userId": "545556696",
+        "devices": {
+            "phone": [
+                "SEP605128556179",
+                "SEP750349115602",
+                "SAMS691727714292",
+                "SEP171317440064"
+            ],
+            "voicemail": [
+                "VM815795"
+            ]
+        }
+    },
+    {
+        "_id": 10079,
+        "originationTime": 1726623894,
+        "clusterId": "domainserver4",
+        "userId": "490136042",
+        "devices": {
+            "phone": [
+                "SAMS602542433939",
+                "SEP482633534500",
+                "SAMS241489064625"
+            ],
+            "voicemail": [
+                "MAIL351349",
+                "MAIL566178"
+            ]
+        }
+    },
+    {
+        "_id": 10080,
+        "originationTime": 1721754591,
+        "clusterId": "domainserver1",
+        "userId": "406127635",
+        "devices": {
+            "phone": [
+                "SAMS613855709141",
+                "HP472074791211",
+                "SAMS685473459771",
+                "SEP798979038531"
+            ],
+            "voicemail": [
+                "MSG758363",
+                "VM314022"
+            ]
+        }
+    },
+    {
+        "_id": 10081,
+        "originationTime": 1695812801,
+        "clusterId": "domainserver4",
+        "userId": "256208318",
+        "devices": {
+            "phone": [
+                "SEP953504294766",
+                "SEP333163210440",
+                "SAMS331194453004",
+                "HP324641239933"
+            ],
+            "voicemail": [
+                "VM361198",
+                "MSG420988",
+                "VOICE680284"
+            ]
+        }
+    },
+    {
+        "_id": 10082,
+        "originationTime": 1717575428,
+        "clusterId": "domainserver1",
+        "userId": "132757348",
+        "devices": {
+            "phone": [
+                "LG851492994071",
+                "SEP181850387251",
+                "SAMS613855709141",
+                "SAMS611134318569",
+                "LG347372694343"
+            ],
+            "voicemail": [
+                "MAIL413759",
+                "VOICE288970"
+            ]
+        }
+    },
+    {
+        "_id": 10083,
+        "originationTime": 1711380817,
+        "clusterId": "domainserver3",
+        "userId": "295612008",
+        "devices": {
+            "phone": [
+                "SEP368169723284"
+            ],
+            "voicemail": [
+                "VOICE288970",
+                "MSG974048"
+            ]
+        }
+    },
+    {
+        "_id": 10084,
+        "originationTime": 1701310334,
+        "clusterId": "domainserver2",
+        "userId": "751219067",
+        "devices": {
+            "phone": [
+                "APP157694771582",
+                "SAMS890504992115",
+                "LG960975023360",
+                "SAMS182141592319",
+                "SAMS488713062641"
+            ],
+            "voicemail": [
+                "MSG686465"
+            ]
+        }
+    },
+    {
+        "_id": 10085,
+        "originationTime": 1726994656,
+        "clusterId": "domainserver1",
+        "userId": "972420206",
+        "devices": {
+            "phone": [
+                "LG512833486721",
+                "LG851492994071",
+                "SEP199433646800"
+            ],
+            "voicemail": [
+                "MAIL861514"
+            ]
+        }
+    },
+    {
+        "_id": 10086,
+        "originationTime": 1708963385,
+        "clusterId": "domainserver2",
+        "userId": "122649410",
+        "devices": {
+            "phone": [
+                "SEP901744848825",
+                "HP781646292157",
+                "LG666820721079",
+                "APP757712362320",
+                "SAMS488713062641"
+            ],
+            "voicemail": [
+                "MSG742823"
+            ]
+        }
+    },
+    {
+        "_id": 10087,
+        "originationTime": 1710961470,
+        "clusterId": "domainserver1",
+        "userId": "555095708",
+        "devices": {
+            "phone": [
+                "SAMS182141592319",
+                "SEP901744848825",
+                "APP258823536076",
+                "SEP303056564829"
+            ],
+            "voicemail": [
+                "MAIL188533"
+            ]
+        }
+    },
+    {
+        "_id": 10088,
+        "originationTime": 1718036491,
+        "clusterId": "domainserver4",
+        "userId": "506299519",
+        "devices": {
+            "phone": [
+                "LG960975023360",
+                "LG642219243125",
+                "SEP875904460225"
+            ],
+            "voicemail": [
+                "MSG895162"
+            ]
+        }
+    },
+    {
+        "_id": 10089,
+        "originationTime": 1715163271,
+        "clusterId": "domainserver4",
+        "userId": "563599617",
+        "devices": {
+            "phone": [
+                "SEP938053968886",
+                "SEP565938931333",
+                "HP991420388042",
+                "SEP755632382521",
+                "SAMS241489064625"
+            ],
+            "voicemail": [
+                "MAIL977364",
+                "VM319397",
+                "MAIL895413"
+            ]
+        }
+    },
+    {
+        "_id": 10090,
+        "originationTime": 1725116491,
+        "clusterId": "domainserver3",
+        "userId": "365954779",
+        "devices": {
+            "phone": [
+                "HP531583340503"
+            ],
+            "voicemail": [
+                "VOICE163835"
+            ]
+        }
+    },
+    {
+        "_id": 10091,
+        "originationTime": 1724241996,
+        "clusterId": "domainserver2",
+        "userId": "766351245",
+        "devices": {
+            "phone": [
+                "SAMS613855709141",
+                "HP272799884957",
+                "SAMS686325348878"
+            ],
+            "voicemail": [
+                "MSG831852",
+                "MAIL977364",
+                "VOICE426056"
+            ]
+        }
+    },
+    {
+        "_id": 10092,
+        "originationTime": 1713418544,
+        "clusterId": "domainserver3",
+        "userId": "815159259",
+        "devices": {
+            "phone": [
+                "SEP343695525186"
+            ],
+            "voicemail": [
+                "MAIL861514"
+            ]
+        }
+    },
+    {
+        "_id": 10093,
+        "originationTime": 1721196653,
+        "clusterId": "domainserver3",
+        "userId": "374644900",
+        "devices": {
+            "phone": [
+                "SEP750349115602",
+                "HP324641239933"
+            ],
+            "voicemail": [
+                "MAIL457312"
+            ]
+        }
+    },
+    {
+        "_id": 10094,
+        "originationTime": 1718038345,
+        "clusterId": "domainserver4",
+        "userId": "903355333",
+        "devices": {
+            "phone": [
+                "APP572872718759",
+                "LG269526240523",
+                "SEP594034469719",
+                "SAMS756009403008",
+                "LG836333718886"
+            ],
+            "voicemail": [
+                "MSG302166",
+                "VM419138",
+                "MSG895162"
+            ]
+        }
+    },
+    {
+        "_id": 10095,
+        "originationTime": 1705621305,
+        "clusterId": "domainserver2",
+        "userId": "802605531",
+        "devices": {
+            "phone": [
+                "HP781646292157",
+                "LG185054800051",
+                "SEP262583002762",
+                "HP531583340503",
+                "SAMS945970015828"
+            ],
+            "voicemail": [
+                "MAIL861514"
+            ]
+        }
+    },
+    {
+        "_id": 10096,
+        "originationTime": 1720117640,
+        "clusterId": "domainserver1",
+        "userId": "587685732",
+        "devices": {
+            "phone": [
+                "SEP413519295030",
+                "APP234292520791"
+            ],
+            "voicemail": [
+                "VOICE395374",
+                "MSG936241"
+            ]
+        }
+    },
+    {
+        "_id": 10097,
+        "originationTime": 1701701828,
+        "clusterId": "domainserver4",
+        "userId": "360119804",
+        "devices": {
+            "phone": [
+                "HP252995899367",
+                "LG836333718886"
+            ],
+            "voicemail": [
+                "MSG831852",
+                "MAIL977364"
+            ]
+        }
+    },
+    {
+        "_id": 10098,
+        "originationTime": 1724087543,
+        "clusterId": "domainserver3",
+        "userId": "401039641",
+        "devices": {
+            "phone": [
+                "APP430281071495",
+                "SAMS710863222966",
+                "HP667750575904",
+                "SEP343695525186"
+            ],
+            "voicemail": [
+                "VM715895",
+                "VM752072"
+            ]
+        }
+    },
+    {
+        "_id": 10099,
+        "originationTime": 1708311148,
+        "clusterId": "domainserver2",
+        "userId": "326187406",
+        "devices": {
+            "phone": [
+                "HP946177132926",
+                "HP340630514172",
+                "SEP171317440064"
+            ],
+            "voicemail": [
+                "MAIL399044",
+                "VOICE524962",
+                "MAIL606911"
+            ]
+        }
+    },
+    {
+        "_id": 10100,
+        "originationTime": 1698227356,
+        "clusterId": "domainserver2",
+        "userId": "997085746",
+        "devices": {
+            "phone": [
+                "SAMS179243663557"
+            ],
+            "voicemail": [
+                "VOICE990732"
+            ]
+        }
+    }
+]
