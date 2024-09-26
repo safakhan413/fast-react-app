@@ -45,6 +45,8 @@ def generate_origination_time():
     Returns:
         int: A Unix timestamp representing the origination time.
     """
+
+    # if time.time() returns 1700000000.123456, calling int(time.time()) would yield 1700000000.
     current_time = int(time.time())  # Current Unix timestamp
     one_year_seconds = 365 * 24 * 60 * 60  # Number of seconds in one year
     # Random timestamp within the last year
