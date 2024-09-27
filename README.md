@@ -10,12 +10,50 @@ RESTful API Endpoints: Provide endpoints to retrieve records by phone number, vo
 Logging: Implement robust logging for monitoring and debugging.
 Data Migration: Migrate data from a JSON file (documents.json) to the MySQL database.
 
-Some observations:
+____________________________________________________________________________________________________________
+Databases
+_________________________________________________________________
 
-Separate Voicemail Table: Voicemails should be a distinct entity, not just another type of device.
-Many-to-Many Relationships:
-Users ↔ Devices: A user can have multiple devices, and a device can be associated with multiple users.
-Users ↔ Voicemails: Similarly, a user can have multiple voicemails, and a voicemail can be associated with multiple users.
-Additional Fields:
-Cluster IDs: Each user is associated with a specific cluster.
-Other Metadata: Fields like _id and originationTime provide additional context.
+
+Entities and Relationships
+Clusters
+
+Represents different server domains.
+Attributes: clusterId.
+Users
+
+Represents individual users.
+Attributes: Unique _id, userId, originationTime, and associated clusterId.
+Phones
+
+Represents phone devices.
+Attributes: Unique identifier and specific phone-related attributes.
+Voicemails
+
+Represents voicemail devices.
+Attributes: Unique identifier and specific voicemail-related attributes.
+User_Phones
+
+Junction table to handle the many-to-many relationship between Users and Phones.
+User_Voicemails
+
+Junction table to handle the many-to-many relationship between Users and Voicemails.
+
++-----------+          +-----------+          +----------+          +------------+
+|  Clusters |          |   Users   |          |  Phones  |          | Voicemails |
++-----------+          +-----------+          +----------+          +------------+
+| clusterId |<-------->|    id     |          | phoneId  |          | vmId       |
+|  (PK)     |          | userId    |          | identifier|         | identifier |
++-----------+          | origTime  |          | ...      |          | ...        |
+                       | clusterId |<-------->| (FK)     |          | (FK)       |
+                       +-----------+          +----------+          +------------+
+                             |                     |                      |
+                             |                     |                      |
+                             |                     |                      |
+                             v                     v                      v
+                      +--------------+     +----------------+     +------------------+
+                      | User_Phones  |     | User_Voicemails|     | ...              |
+                      +--------------+     +----------------+     +------------------+
+                      | userId (FK)  |     | userId (FK)    |     |                  |
+                      | phoneId (FK) |     | vmId (FK)      |     |                  |
+                      +--------------+     +----------------+     +------------------+
