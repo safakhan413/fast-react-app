@@ -1,11 +1,11 @@
 ### Creating Data file
-Step1: generate_documents.py is used to generate 100 documents that are migrated to mysql
+## Step1: generate_documents.py is used to generate 100 documents that are migrated to mysql
 
 This will generate 100 documents like the sample json document provided
 
 Then I used MySQL to build the database
 
-'''sql
+```sql
 -- clustersclusters-- Create the database
 CREATE DATABASE IF NOT EXISTS documents_db;
 USE documents_db;
