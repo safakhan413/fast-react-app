@@ -1,5 +1,72 @@
 ### Creating Data file
-generate_documents.py is used to generate 100 documents that are migrated to mysql
+Step1: generate_documents.py is used to generate 100 documents that are migrated to mysql
+
+This will generate 100 documents like the sample json document provided
+
+Then I used MySQL to build the database
+
+'''sql
+-- clustersclusters-- Create the database
+CREATE DATABASE IF NOT EXISTS documents_db;
+USE documents_db;
+
+-- Create Clusters table
+CREATE TABLE Clusters (
+    clusterId VARCHAR(50) PRIMARY KEY
+);
+
+-- Create Users table
+CREATE TABLE Users (
+    id INT PRIMARY KEY,
+    userId VARCHAR(9) UNIQUE NOT NULL,
+    originationTime INT NOT NULL,
+    clusterId VARCHAR(50),
+    FOREIGN KEY (clusterId) REFERENCES Clusters(clusterId)
+        ON DELETE SET NULL
+        ON UPDATE CASCADE
+);
+
+-- Create Phones table
+CREATE TABLE Phones (
+    phoneId INT AUTO_INCREMENT PRIMARY KEY,
+    identifier VARCHAR(20) UNIQUE NOT NULL,
+    phoneModel VARCHAR(50),
+    purchaseDate DATE
+);
+
+-- Create Voicemails table
+CREATE TABLE Voicemails (
+    vmId INT AUTO_INCREMENT PRIMARY KEY,
+    identifier VARCHAR(20) UNIQUE NOT NULL,
+    setupDate DATE,
+    storageCapacity INT
+);
+
+-- Create User_Phones table
+CREATE TABLE User_Phones (
+    userId INT,
+    phoneId INT,
+    PRIMARY KEY (userId, phoneId),
+    FOREIGN KEY (userId) REFERENCES Users(id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE,
+    FOREIGN KEY (phoneId) REFERENCES Phones(phoneId)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+);
+
+-- Create User_Voicemails table
+CREATE TABLE User_Voicemails (
+    userId INT,
+    vmId INT,
+    PRIMARY KEY (userId, vmId),
+    FOREIGN KEY (userId) REFERENCES Users(id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE,
+    FOREIGN KEY (vmId) REFERENCES Voicemails(vmId)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+);
 
 We'll build a FastAPI backend application with the following features:
 

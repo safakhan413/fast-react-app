@@ -1,7 +1,7 @@
 # app/schemas.py
 
 from pydantic import BaseModel, ConfigDict
-from typing import List
+from typing import List, Optional
 
 class PhoneBase(BaseModel):
     identifier: str
@@ -24,8 +24,8 @@ class Voicemail(VoicemailBase):
     model_config = ConfigDict(from_attributes=True)
 
 class UserBase(BaseModel):
-    id: str
-    userId: str
+    id: int  # Changed from str to int
+    userId: Optional[str]  # Adjust if necessary
     originationTime: int
     clusterId: str
 

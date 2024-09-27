@@ -23,7 +23,9 @@ app.include_router(auth_router)
 # Configure CORS (adjust origins as needed)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # For testing; specify origins in production
+    allow_origins=["http://localhost:3000"],  # Allows API requests from frontend
+
+    # allow_origins=["*"],  # For testing; specify origins in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -38,14 +40,12 @@ def get_db():
         db.close()
 
 # Protected Endpoint to Retrieve Users
+# Protected Endpoint to Retrieve Users
 @app.get("/users/", response_model=List[schemas.User])
 async def get_users(
     start_time: int = Query(..., description="Start time in Unix timestamp"),
     end_time: int = Query(..., description="End time in Unix timestamp"),
-    user_id: Optional[str] = Query(None),
-    phone: Optional[str] = Query(None),
-    voicemail: Optional[str] = Query(None),
-    cluster: Optional[str] = Query(None),
+    parameter: Optional[str] = Query(None, description="One of 'user_id', 'phone', 'voicemail', 'cluster'"),
     db: Session = Depends(get_db),
     current_user: dict = Depends(get_current_user)
 ):
@@ -55,18 +55,50 @@ async def get_users(
         UserModel.originationTime.between(start_time, end_time)
     )
 
-    if user_id:
-        query = query.filter(UserModel.userId == user_id)
-    if cluster:
-        query = query.filter(UserModel.clusterId == cluster)
-    if phone:
-        query = query.join(UserModel.phones).filter(Phone.identifier == phone)
-    if voicemail:
-        query = query.join(UserModel.voicemails).filter(Voicemail.identifier == voicemail)
+    if parameter == 'user_id':
+        # No additional filtering needed; include all users with user IDs
+        pass
+    elif parameter == 'phone':
+        query = query.join(UserModel.phones)
+    elif parameter == 'voicemail':
+        query = query.join(UserModel.voicemails)
+    elif parameter == 'cluster':
+        # No additional filtering needed; include all clusters
+        pass
 
     users = query.all()
     logger.info(f"Retrieved {len(users)} users.")
     return users
+
+# @app.get("/users/", response_model=List[schemas.User])
+# async def get_users(
+#     start_time: int = Query(..., description="Start time in Unix timestamp"),
+#     end_time: int = Query(..., description="End time in Unix timestamp"),
+#     user_id: Optional[str] = Query(None),
+#     phone: Optional[str] = Query(None),
+#     voicemail: Optional[str] = Query(None),
+#     cluster: Optional[str] = Query(None),
+#     db: Session = Depends(get_db),
+#     current_user: dict = Depends(get_current_user)
+# ):
+#     logger.info(f"User {current_user['username']} requested users with filters.")
+
+#     query = db.query(UserModel).filter(
+#         UserModel.originationTime.between(start_time, end_time)
+#     )
+
+#     if user_id:
+#         query = query.filter(UserModel.userId == user_id)
+#     if cluster:
+#         query = query.filter(UserModel.clusterId == cluster)
+#     if phone:
+#         query = query.join(UserModel.phones).filter(Phone.identifier == phone)
+#     if voicemail:
+#         query = query.join(UserModel.voicemails).filter(Voicemail.identifier == voicemail)
+
+#     users = query.all()
+#     logger.info(f"Retrieved {len(users)} users.")
+#     return users
 
 # Endpoint to Download Users as CSV
 @app.get("/users/download")
