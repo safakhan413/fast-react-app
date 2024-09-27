@@ -1,25 +1,27 @@
 # app/schemas.py
 
-from pydantic import BaseModel
-from typing import List, Optional
+from pydantic import BaseModel, ConfigDict
+from typing import List
 
 class PhoneBase(BaseModel):
     identifier: str
 
+    model_config = ConfigDict(from_attributes=True)
+
 class Phone(PhoneBase):
     phoneId: int
 
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
 
 class VoicemailBase(BaseModel):
     identifier: str
 
+    model_config = ConfigDict(from_attributes=True)
+
 class Voicemail(VoicemailBase):
     vmId: int
 
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
 
 class UserBase(BaseModel):
     id: str
@@ -27,12 +29,13 @@ class UserBase(BaseModel):
     originationTime: int
     clusterId: str
 
+    model_config = ConfigDict(from_attributes=True)
+
 class User(UserBase):
     phones: List[Phone] = []
     voicemails: List[Voicemail] = []
 
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
 
 class Token(BaseModel):
     access_token: str
