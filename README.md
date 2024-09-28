@@ -99,7 +99,7 @@ Attributes: Unique identifier and specific voicemail-related attributes.
 # User_Voicemails
 
 Junction table to handle the many-to-many relationship between Users and Voicemails.
-
+```
 +-----------+          +-----------+          +----------+          +------------+
 |  Clusters |          |   Users   |          |  Phones  |          | Voicemails |
 +-----------+          +-----------+          +----------+          +------------+
@@ -118,7 +118,7 @@ Junction table to handle the many-to-many relationship between Users and Voicema
                       | userId (FK)  |     | userId (FK)    |     |                  |
                       | phoneId (FK) |     | vmId (FK)      |     |                  |
                       +--------------+     +----------------+     +------------------+
-
+```
 
 ## Step2: Then I built FastAPI backend application with the following features:
 
