@@ -272,7 +272,7 @@ Here are some screenshots of the application in action:
 
 ### Login Page
 ```markdown
-https://raw.githubusercontent.com/safakhan413/fast-react-app/main/loginpage.png
+https://github.com/safakhan413/fast-react-app/blob/main/loginpage.png
 ```
 
 ![Login Page](https://raw.githubusercontent.com/safakhan413/fast-react-app/main/loginpage.png "Login Page")
