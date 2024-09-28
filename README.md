@@ -263,3 +263,17 @@ http://localhost:3000
 
 - **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 - **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+
+```markdown
+
+## Screenshots
+
+Here are some screenshots of the application in action:
+
+### Login Page
+
+![Login Page](https://github.com/safakhan413/fast-react-app/blob/main/loginpage.png "Login Page")
+
+### Data Viewer Page
+
+![Data Viewer Page](https://github.com/safakhan413/fast-react-app/blob/main/datapage.png "Data Viewer Page")
