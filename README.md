@@ -119,6 +119,7 @@ Junction table to handle the many-to-many relationship between Users and Voicema
                       | phoneId (FK) |     | vmId (FK)      |     |                  |
                       +--------------+     +----------------+     +------------------+
 
+
 ## Step2: Then I built FastAPI backend application with the following features:
 
 1. 🔑 **OAuth2 Authentication:** Secure API endpoints using JWT (JSON Web Tokens).
