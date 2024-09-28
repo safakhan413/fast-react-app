@@ -135,7 +135,28 @@ To run this application:
 You can clone it:
 ```bash
 git clone https://github.com/safakhan413/fast-react-app.git
+#cd into the folder
+
+# Create the environment (Windows)
+python -m venv env
+# Activate your environment
+path\to\your\fast-react-app\env\Scripts\activate
+
+# Then install all the relevant packages
+pip install -r requirements.txt
+
 ```
+
+Now you are ready to migrate your database using app/migrate.py file
+
+Remember to change line 140 in migrate.py to point to the actual location of documents.json
+
+```python
+
+      json_path = os.path.join(os.path.dirname(__file__), '..', 'documents.json')
+
+```
+
 ____________________________________________________________________________________________________________
 Databases
 _________________________________________________________________
