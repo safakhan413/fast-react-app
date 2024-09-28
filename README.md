@@ -1,3 +1,20 @@
+# Full Stack Application with FastAPI and React
+
+This project is a full-stack web application that includes a FastAPI backend and a React frontend. The backend uses MySQL as the database and implements token-based authentication with JWT. The frontend is built using React with Material-UI and communicates with the FastAPI backend to fetch, display, and export data.
+
+## Project Overview
+
+This application allows users to log in, query data from the backend, and export the results to a CSV file. The backend is built with FastAPI and uses JWT-based authentication. The frontend uses React for UI and Material-UI components for styling.
+
+## Technologies Used
+
+- **Backend**: FastAPI, SQLAlchemy, MySQL, JWT, Pydantic
+- **Frontend**: React, Material-UI, Axios, react-csv
+- **Database**: MySQL
+- **Other**: Python 3.9+, Node.js 14+
+
+
+
 ### Creating Data file
 ## Step1: generate_documents.py
 # This file is used to generate 100 documents that are migrated to mysql
@@ -70,7 +87,7 @@ CREATE TABLE User_Voicemails (
 );
 ```
 
-# Entities and Relationships
+## Entities and Relationships
 
 # Clusters
 
@@ -153,9 +170,23 @@ Remember to change line 140 in migrate.py to point to the actual location of doc
 
 ```python
 
-      json_path = os.path.join(os.path.dirname(__file__), '..', 'documents.json')
+json_path = os.path.join(os.path.dirname(__file__), '..', 'documents.json') # My documents.json file is in the root directory
+
+# To run the python command just cd into app folder and run
+python migrate.py
 
 ```
+# After migration you will get a success message showing all your records have been populated in your database tables according to your 
+logic. 
+
+We are using sqlaclemy.orm to create Object Relational Mapping between models and database tables
+
+Now to run the app use the following command:
+
+```python
+python run.py
+```
+
 
 ____________________________________________________________________________________________________________
 Databases
