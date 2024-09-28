@@ -1,4 +1,3 @@
-```markdown
 # Full Stack Application with FastAPI and React
 
 This project is a full-stack web application that includes a FastAPI backend and a React frontend. The backend uses MySQL as the database and implements token-based authentication with JWT. The frontend is built using React with Material-UI and communicates with the FastAPI backend to fetch, display, and export data.
