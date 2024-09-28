@@ -40,7 +40,6 @@ def get_db():
         db.close()
 
 # Protected Endpoint to Retrieve Users
-# Protected Endpoint to Retrieve Users
 @app.get("/users/", response_model=List[schemas.User])
 async def get_users(
     start_time: int = Query(..., description="Start time in Unix timestamp"),
@@ -70,35 +69,6 @@ async def get_users(
     logger.info(f"Retrieved {len(users)} users.")
     return users
 
-# @app.get("/users/", response_model=List[schemas.User])
-# async def get_users(
-#     start_time: int = Query(..., description="Start time in Unix timestamp"),
-#     end_time: int = Query(..., description="End time in Unix timestamp"),
-#     user_id: Optional[str] = Query(None),
-#     phone: Optional[str] = Query(None),
-#     voicemail: Optional[str] = Query(None),
-#     cluster: Optional[str] = Query(None),
-#     db: Session = Depends(get_db),
-#     current_user: dict = Depends(get_current_user)
-# ):
-#     logger.info(f"User {current_user['username']} requested users with filters.")
-
-#     query = db.query(UserModel).filter(
-#         UserModel.originationTime.between(start_time, end_time)
-#     )
-
-#     if user_id:
-#         query = query.filter(UserModel.userId == user_id)
-#     if cluster:
-#         query = query.filter(UserModel.clusterId == cluster)
-#     if phone:
-#         query = query.join(UserModel.phones).filter(Phone.identifier == phone)
-#     if voicemail:
-#         query = query.join(UserModel.voicemails).filter(Voicemail.identifier == voicemail)
-
-#     users = query.all()
-#     logger.info(f"Retrieved {len(users)} users.")
-#     return users
 
 # Endpoint to Download Users as CSV
 @app.get("/users/download")

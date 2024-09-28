@@ -5,3 +5,4 @@ app/__pycache__/database.cpython-39.pyc
 *.pyc
 *.pyc
 app/__pycache__/models.cpython-39.pyc
+ignore.md

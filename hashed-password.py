@@ -1,15 +1,15 @@
 # hash_password.py
 
-# from passlib.context import CryptContext
+from passlib.context import CryptContext
 
-# pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
-# def hash_password(password: str):
-#     return pwd_context.hash(password)
+def hash_password(password: str):
+    return pwd_context.hash(password)
 
-# if __name__ == "__main__":
-#     password = input("Enter admin password: ")
-#     print("Hashed Password:", hash_password(password))
+if __name__ == "__main__":
+    password = input("Enter admin password: ")
+    print("Hashed Password:", hash_password(password))
 
 
 # import bcrypt
