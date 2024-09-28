@@ -279,6 +279,6 @@ https://github.com/safakhan413/fast-react-app/blob/main/loginpage.png
 
 ### Data Viewer Page
 
-![Data Viewer Page](https://raw.githubusercontent.com/safakhan413/fast-react-app/main/datapage.png "Data Viewer Page")
+![Data Viewer Page](https://github.com/safakhan413/fast-react-app/blob/main/datapage.png "Data Viewer Page")
 
 ```
