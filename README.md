@@ -1,9 +1,10 @@
 ### Creating Data file
-## Step1: generate_documents.py is used to generate 100 documents that are migrated to mysql
+## Step1: generate_documents.py
+# This file is used to generate 100 documents that are migrated to mysql
 
 This will generate 100 documents like the sample json document provided
 
-Then I used MySQL to build the database
+Then I used MySQL to build the database. Run teh following in MYSQL database query window
 
 ```sql
 -- clustersclusters-- Create the database
@@ -69,27 +70,33 @@ CREATE TABLE User_Voicemails (
 );
 ```
 
-Entities and Relationships
-Clusters
+# Entities and Relationships
+
+# Clusters
 
 Represents different server domains.
 Attributes: clusterId.
-Users
+
+# Users
 
 Represents individual users.
 Attributes: Unique _id, userId, originationTime, and associated clusterId.
-Phones
+
+# Phones
 
 Represents phone devices.
 Attributes: Unique identifier and specific phone-related attributes.
-Voicemails
+
+# Voicemails
 
 Represents voicemail devices.
 Attributes: Unique identifier and specific voicemail-related attributes.
-User_Phones
 
-Junction table to handle the many-to-many relationship between Users and Phones.
-User_Voicemails
+# User_Phones
+
+#Junction table to handle the many-to-many relationship between Users and Phones.
+
+# User_Voicemails
 
 Junction table to handle the many-to-many relationship between Users and Voicemails.
 
@@ -114,12 +121,13 @@ Junction table to handle the many-to-many relationship between Users and Voicema
 
 ## Step2: Then I built FastAPI backend application with the following features:
 
-OAuth2 Authentication: Secure API endpoints using JWT (JSON Web Tokens).
-CORS Support: Allow cross-origin requests from your frontend.
-MySQL Integration: Store and manage data using a MySQL database.
-RESTful API Endpoints: Provide endpoints to retrieve records by phone number, voicemail, user ID, and cluster ID within a specified date range.
-Logging: Implement robust logging for monitoring and debugging.
-Data Migration: Migrate data from a JSON file (documents.json) to the MySQL database.
+1. 🔑 **OAuth2 Authentication:** Secure API endpoints using JWT (JSON Web Tokens).
+2. 🔄 **CORS Support:** Allow cross-origin requests from your frontend.
+3. 🗄️ **MySQL Integration:** Store and manage data using a MySQL database.
+4. 🌐 **RESTful API Endpoints:** Provide endpoints to retrieve records by phone number, voicemail, user ID, and cluster ID within a specified date range.
+5. 📝 **Logging:** Implement robust logging for monitoring and debugging.
+6. 📂 **Data Migration:** Migrate data from a JSON file (`documents.json`) to the MySQL database.
+
 
 To run this application:
 
