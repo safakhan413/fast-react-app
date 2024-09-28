@@ -275,7 +275,7 @@ Here are some screenshots of the application in action:
 https://github.com/safakhan413/fast-react-app/blob/main/loginpage.png
 ```
 
-![Login Page](https://raw.githubusercontent.com/safakhan413/fast-react-app/main/loginpage.png "Login Page")
+![Login Page](https://github.com/safakhan413/fast-react-app/blob/main/loginpage.png "Login Page")
 
 ### Data Viewer Page
 
