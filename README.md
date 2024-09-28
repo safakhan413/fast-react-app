@@ -121,6 +121,12 @@ RESTful API Endpoints: Provide endpoints to retrieve records by phone number, vo
 Logging: Implement robust logging for monitoring and debugging.
 Data Migration: Migrate data from a JSON file (documents.json) to the MySQL database.
 
+To run this application:
+
+You can clone it:
+```bash
+git clone https://github.com/safakhan413/fast-react-app.git
+```
 ____________________________________________________________________________________________________________
 Databases
 _________________________________________________________________
