@@ -272,7 +272,7 @@ Here are some screenshots of the application in action:
 
 ### Login Page
 ```markdown
-
+```
 ![Login Page](https://github.com/safakhan413/fast-react-app/blob/main/loginpage.png "Login Page")
 
 ### Data Viewer Page
