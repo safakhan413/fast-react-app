@@ -83,8 +83,20 @@ async def get_users(
     db: Session = Depends(get_db),
     current_user: dict = Depends(get_current_user)
 ):
-    users = fetch_users(start_time, end_time, parameter, db)
+    
+
+    if start_time >= end_time:
+        raise HTTPException(status_code=400, detail="start_time must be less than end_time")
+    if parameter and parameter not in {'user_id', 'phone', 'voicemail', 'cluster'}:
+        raise HTTPException(status_code=400, detail="Invalid parameter value")
+    
+    try:
+        users = fetch_users(start_time, end_time, parameter, db)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
     return users
+    # users = fetch_users(start_time, end_time, parameter, db)
+    # return users
 
 # Endpoint to Download Users as CSV
 @app.get("/users/download")
