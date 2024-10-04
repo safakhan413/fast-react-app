@@ -219,6 +219,10 @@ cd fast-react-app
   Query parameters: `start_time`, `end_time`, `parameter`.  
   Authorization: Requires Bearer token.
 
+## To test the Endpoints, Go to root directory and run thsi comamnd
+  ```python
+  pytest tests/test_main.py```
+
 ---
 
 ## Frontend Setup
