@@ -225,7 +225,7 @@ To test the endpoints, navigate to the root directory and run the following comm
 
 ```bash
 pytest tests/test_main.py
-
+```
 ---
 
 ## Frontend Setup
