@@ -220,10 +220,9 @@ cd fast-react-app
   Authorization: Requires Bearer token.
 
 ## To test the Endpoints, Go to root directory and run the following command
-    ```python
-    pytest tests/test_main.py
     ```
-
+    pytest tests/test_main.py
+```
 ---
 
 ## Frontend Setup
