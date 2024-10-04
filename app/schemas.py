@@ -25,7 +25,7 @@ class Voicemail(VoicemailBase):
 
 class UserBase(BaseModel):
     id: int  # Changed from str to int
-    userId: Optional[str]  # Adjust if necessary
+    userId: str  # Adjust if necessary
     originationTime: int
     clusterId: str
 
