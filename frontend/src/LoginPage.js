@@ -17,10 +17,7 @@ function LoginPage() {
     data.append('password', password);
 
     try {
-      const response = await axios.post('http://localhost:8000/token', data, {
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
+      const response = 
       });
 
       // Log the response to check if access_token is present
