@@ -135,6 +135,7 @@ Junction table to handle the many-to-many relationship between `Users` and `Voic
 4. 🌐 **RESTful API Endpoints**: Provide endpoints to retrieve records by phone number, voicemail, user ID, and cluster ID within a specified date range.
 5. 📝 **Logging**: Implement robust logging for monitoring and debugging.
 6. 📂 **Data Migration**: Migrate data from a JSON file (`documents.json`) to the MySQL database.
+7. 🧪 Testing with TestClient: Uses FastAPI’s TestClient to ensure robust and reliable API functionality through automated tests.
 
 ## How to Run This Application
 
